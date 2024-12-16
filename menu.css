@@ -1,0 +1,28 @@
+/* Estilo base para el menú centrado */
+ul.menu {
+    list-style-type: none; /* Quita los puntos de viñeta predeterminados de la lista */
+    display: flex; /* Usa Flexbox para alinear los elementos en línea horizontal */
+    justify-content: center; /* Centra los elementos de la lista horizontalmente */
+    background-color: #000000; /* Establece el color de fondo del menú en gris oscuro */
+  }
+  
+  /* Estilo para cada elemento de la lista */
+  ul.menu li {
+    margin: 0; /* Quita cualquier margen externo del elemento <li> */
+    padding: 0; /* Quita cualquier relleno interno del elemento <li> */
+  }
+  
+  /* Estilo para los enlaces dentro de cada elemento */
+  ul.menu li a {
+    display: block; /* Hace que el enlace ocupe todo el espacio del elemento <li> */
+    color: white; /* Define el color del texto del enlace en blanco */
+    padding: 14px 20px; /* Agrega espacio alrededor del texto del enlace */
+    text-decoration: none; /* Quita el subrayado del texto del enlace */
+    text-align: center; /* Centra el texto dentro del enlace */
+  }
+  
+  /* Efecto al pasar el ratón */
+  ul.menu li a:hover {
+    background-color: #555; /* Cambia el fondo a gris medio cuando el ratón pasa sobre el enlace */
+  }
+  
